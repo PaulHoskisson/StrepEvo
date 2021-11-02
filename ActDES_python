@@ -34,7 +34,7 @@ muscle -in output_filename_hits_Unique.fasta -out output_filename_hits_Unique.af
 
 conda install -c bioconda gblocks
 
-gblocks output_filename_hits_Unique.afa -b4=5 -b5=H -b3=10>LOGhits.GBLOCKS  
+Gblocks output_filename_hits_Unique.afa -b4=5 -b5=H -b3=10>LOGhits.GBLOCKS  
 
 #Install hmmer utility to enable file format changes, and to use the esl utility contained within
 
